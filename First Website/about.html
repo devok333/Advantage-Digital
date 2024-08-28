@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>About Section</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="imgs">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <form action="index.html">
+            <button>
+        <h2> <img style="height: 120px; margin: auto;  box-shadow: 10px 10px 30px rgba(237, 232, 232, 0.5); " src="imgs/advantageD.png" alt="advantage digital logo "></h2>
+        </form>
+    </button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+<style>
+    body, html {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: whitesmoke;
+        overflow-x: hidden;
+
+    }
+    .AboutTop {
+        color: whitesmoke;
+        background-color: black;
+        padding: 20px;
+        line-height: 30px;
+        text-align:center ;
+    }
+    .AboutTop h2 {
+        text-align: center;
+        margin-top: 0;
+        padding: 10px;
+    }
+    .section-divider {
+    border: none; /* Remove default border */
+    height: 1px; /* Set the height of the line */
+    background-color: white; /* Set the color of the line */
+    margin: 2px;
+    }
+    .why-choose-us {
+    background-color: black;
+    padding: 50px 30px;
+    text-align: center;
+   
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: whitesmoke
+}
+
+.reasons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.reason {
+    background-color:black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    border: solid 3px white;
+    flex: 1 1 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reason h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: whitesmoke
+}
+
+.reason p {
+    font-size: 1em;
+    color: whitesmoke;
+}
+   
+    .aboutImage {
+        width: 100%;
+        transition: transform 0.3s ease;
+background-color: #111;
+background-size: cover;
+background-repeat: no-repeat;
+margin-bottom: 0;   
+height: 40%; 
+       
+    }
+    .aboutImage img {
+        display: inline-block;
+        width: 33%;
+        height: 75vh;
+        padding: 20px
+     
+      
+
+
+    }
+    .aboutImage img:hover {
+        transform: scale(1.05);
+    }
+    .more-info {
+       padding: 20px;
+        margin-top: 0;
+        color: whitesmoke;
+        background-color: black;
+    }
+    .BlackStripe {
+            height: 20%;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 40px;
+            background-color: #000;
+            color: whitesmoke;
+            text-align: center;
+           
+        }
+
+        .BlackStripe img {
+            padding: 20px;
+            height: 10%;
+        }
+     
+.more-info h2 {
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+}
+#more-info-bold {
+    text-decoration: solid;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 50px;
+
+}
+.more-info p {
+    letter-spacing: 0.04rem;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 30px;
+}
+body {
+    overflow: hidden; /* Hide both horizontal and vertical scrollbars */
+}
+
+footer {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    background-color: #000;
+    color: #5a360e;
+    position: relative;
+    overflow: hidden; /* Hide overflow within the footer */
+    padding: 5.5%;
+    
+}
+
+footer .container3 {
+    width: 100%;
+}
+
+footer .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row; /* Stack items vertically */
+    gap: 25px; /* Add space between items */
+    position: absolute;
+    left: 5%;
+    top: 30%;
+
+}
+.nav-links p {
+    margin: 20px 0 ;
+}
+
+
+footer .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row; /* Stack items vertically */
+    gap: 10px; /* Add space between items */
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    margin-top: 30px;
+}
+
+footer .nav-links a, footer .social-icons a {
+    color: #5a360e;
+    text-decoration: none;
+}
+.titletext {
+    position: absolute;
+    left: 11.5%;
+    list-style: none;
+    padding: 0;
+    top: 8%;
+  margin: 10px 0;
+    text-align: center;
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+footer .contact-info {
+    list-style: none;
+    padding: 0;
+    position: absolute; /* Change to absolute positioning */
+    top: 3%; /* Adjust as needed to place it at the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    text-align: center;
+    flex-direction: column;
+    z-index: 10; /* Higher z-index means this element will be on top */
+}
+
+footer .contact-info p {
+    margin: 10px 0;
+}
+
+footer .back-to-top {
+    cursor: pointer;
+    position: absolute;
+    z-index: 20;
+    left: 50%; 
+    transform: translateX(-50%); /* Center horizontally */
+    text-align: center;
+    justify-content: center;
+    background-color: #000;
+   bottom: 14%
+}
+
+footer .logo {
+    width: auto; /* Adjust the size as needed */
+    height: 90%;
+    box-shadow: 10px 10px 20px #5e5c5c;
+}
+
+footer .logo-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    position: absolute;
+    top: 25%;
+    right: 12%;
+    width: 100px; /* Adjust the size as needed */
+    height: 65%; /* Adjust the size as needed */
+    z-index: 10; /* Ensure it appears on top */
+    padding-bottom: 20px;
+}
+           
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .AboutTop {
+        text-align: center;
+    }
+    .AboutTop h2 {
+        font-size: 2.3rem;
+    }
+    #noDisplay {
+        display: none;
+    }
+    .aboutImage {
+        text-align: center;
+        background-color: black;
+        background-image: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .aboutImage img {
+        box-sizing: border-box;
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: hidden;
+        margin-top: 30px;
+        padding: 3%;
+        height: 400px;
+    }
+    .aboutImage img:hover {
+        transform: scale(1.05);
+    }
+    .container h2 {
+        font-size: 2.2rem;
+    }
+    .more-info {
+        text-align: center;
+        line-height: 24px;
+    }
+    .more-info h2 {
+        line-height: normal;
+    }
+}
+
+/*Mobile version*/
+@media only screen and  (max-width: 600px ) {
+.AboutTop {
+    text-align: center;
+
+}
+.AboutTop h2 {
+font-size: 2.1rem;
+
+}
+
+#noDisplay {
+    display: none;
+}
+.aboutImage {
+    text-align: center;
+    background-color: black;
+    background-image: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.aboutImage img {
+    box-sizing: border-box;
+     width: 80%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     overflow-x: hidden;
+     margin-top: 30px;
+    padding: 3%;
+    height: 450px;
+   
+
+}
+.aboutImage img:hover {
+        transform: scale(1.05);
+
+      
+    }
+    .container h2 {
+        font-size: 2rem;
+    }
+    .more-info {
+        text-align: center;
+        line-height: 22px;
+    }
+    .more-info h2 {
+        line-height: normal;
+        font-size: 1.7rem;
+    }
+    .reason h3 {
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    .more-info h2 {
+        line-height: normal;
+        font-size: 1.7rem;
+    }
+}
+    
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .AboutTop {
+        text-align: center;
+    }
+    .AboutTop h2 {
+        font-size: 2.5rem;
+    }
+    #noDisplay {
+        display: none;
+    }
+    .aboutImage {
+        text-align: center;
+        background-color: black;
+        background-image: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .aboutImage img {
+        box-sizing: border-box;
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: hidden;
+        margin-top: 30px;
+        padding: 3%;
+        height: 450px;
+    }
+    .aboutImage img:hover {
+        transform: scale(1.05);
+    }
+    .container h2 {
+        font-size: 2.4rem;
+    }
+    .more-info {
+        text-align: center;
+        line-height: 26px;
+    }
+    .more-info h2 {
+        line-height: normal;
+
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .AboutTop {
+        text-align: center;
+    }
+    .AboutTop h2 {
+        font-size: 2.7rem;
+    }
+    #noDisplay {
+        display: none;
+    }
+    .aboutImage {
+        text-align: center;
+        background-color: black;
+        background-image: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .aboutImage img {
+        box-sizing: border-box;
+        width: 65%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: hidden;
+        margin-top: 30px;
+        padding: 3%;
+        height: 500px;
+    }
+    .aboutImage img:hover {
+        transform: scale(1.05);
+    }
+    .container h2 {
+        font-size: 2.6rem;
+    }
+    .more-info {
+        text-align: center;
+        line-height: 28px;
+    }
+    .more-info h2 {
+        line-height: normal;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    .AboutTop {
+        text-align: center;
+    }
+    .AboutTop h2 {
+        font-size: 3rem;
+    }
+    #noDisplay {
+        display: none;
+    }
+    .aboutImage {
+        text-align: center;
+        background-color: black;
+        background-image: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .aboutImage img {
+        box-sizing: border-box;
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: hidden;
+        margin-top: 30px;
+        padding: 3%;
+        height: 650px;
+    }
+    .aboutImage img:hover {
+        transform: scale(1.05);
+    }
+    .container h2 {
+        font-size: 2.8rem;
+    }
+    .more-info {
+        text-align: center;
+        line-height: 30px;
+    }
+    .more-info h2 {
+        line-height: normal;
+    }
+}
+
+
+    
+
+
+</style>
+</head>
+<body>
+<div class="AboutTop">
+    <h2>About Us</h2>
+    <p>Welcome to Advantage Digital, your dedicated partner in web development, proudly based in the vicinity of Spiddal County Galway . At Digital Advantage, we are passionate about helping businesses thrive online with bespoke websites that are not only visually stunning but also highly functional.
+
+        
+        Our mission is to provide exceptional web development services that empower our clients to achieve their online goals. We believe in the transformative power of a well-crafted website and are committed to delivering solutions that make a real difference. <br>
+        
+       </p>
+    </div>
+    <hr class="section-divider">
+    <div class="BlackStripe">
+        <H1>What We Use</H1>
+        <div class="imageBlackStripe">
+            <img style="height: 180px; width: 200px;  "
+                src="http://ts1.mm.bing.net/th?id=OIP.1xChETPoEXpJiPSEe_0Y4gHaFG&pid=15.1"
+                alt="shopify logo">
+            <img style="height: 180px; width: 200px "
+                src=https://th.bing.com/th?q=HTML+Logo+Icon&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IE&cc=IE&setlang=en&adlt=strict&t=1&mw=247"
+                alt="html logo">
+            <img style="height: 180px; width: 200px ;"
+                src="https://th.bing.com/th?q=CSS+Logo.png+Transparent&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IE&cc=IE&setlang=en&adlt=strict&t=1&mw=247"
+                alt="css logo">
+                <img style="height: 180px; width: 200px ;" src="https://th.bing.com/th/id/OIP.8lG71Gr7LODSWlZITL-NfwHaHa?w=189&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Javascript logo ">
+                <img style="height: 180px; width: 200px ;" src="data:image/jpeg;base64,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" alt="Figma logo ">
+            </div>
+    </div>
+    <hr class="section-divider">
+        <section class="why-choose-us">
+            <div class="container">
+                <h2>Why Choose Us</h2>
+                <div class="reasons">
+                    <div class="reason">
+                        <h3>Dedication to Excellence</h3>
+                        <p>We are committed to delivering the highest quality in every project we undertake.</p>
+                    </div>
+                    <div class="reason">
+                        <h3>  Client-Centric Approach</h3>
+                        <p> Your needs are our top priority. We work closely with you to understand your goals and bring your vision to life.</p>
+                    </div>
+                    <div class="reason">
+                        <h3>Personalized Service</h3>
+                        <p>Our friendly team is dedicated to providing personalized service that exceeds your expectations and makes you feel valued.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    <div class="aboutImage">
+    <img id="mobileImage"   src="https://th.bing.com/th/id/OIP.oZ2DqNOqQihu-3NbGpvSFwHaE8?w=205&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Spiddal Pier">
+    <img id="noDisplay" src="https://th.bing.com/th/id/OIP.Et5cf6RHSjhXNfAPPEl5GAHaFj?w=248&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Spiddal Crafts Center">
+    <img id="noDisplay" style="margin-right: 5.6px;" src= "imgs/cathederal.jpg" alt="">
+</div>
+
+
+  
+    
+    <div class="more-info" >
+        <h2>We’d love to hear from you!</h2> <p> Whether you have questions, need a quote, or want to discuss your project, our team is here to help. You can reach us by email at [your-email@example.com], send us a message through our Contact Us section, or give us a call at 0896030123. </p> <p id="more-info-bold">
+ Let’s create something amazing together!</p>
+</div>
+<hr class="section-divider">
+<footer>
+        <div class="container3">
+            <h3 class="titletext"> Navigation</h3>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="social-icons">
+                <li><a href="#facebook">Facebook</a></li>
+                <li><a href="#twitter">Twitter</a></li>
+                <li><a href="#instagram">Instagram</a></li>
+            </ul>
+        </div>
+            
+            <div class="contact-info">
+                <h3> Contact Us</h3>
+                <p>Phone: 0896030123</p>
+                <p>Email: @AdvantageDigitalGalway.com</p>
+            </div>
+            <div class="logo-container">
+            <img src="imgs/advantageD.png" alt="Logo" class="logo">
+            </div>
+            <div class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+                Back to Top
+        </div>
+</div>
+</footer>
+<body>
+    
+
+
+<script>
+    
+</script>
+
+</html>

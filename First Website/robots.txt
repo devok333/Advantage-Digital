@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Allow: /public/
+
+# Block specific bots
+User-agent: BadBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://digitaladvantage.netlify.app/

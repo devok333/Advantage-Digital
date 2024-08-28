@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Avdantage Digital| Seo | Web design | Web hosting| Spiddal  </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="At Digital Advantage Spiddal, we offer professional web design services that will make your buisness thrive. Our team creates visually stunning and user-friendly websites that will  help your business stand out online">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="icon" href="imgs/favicon.png" type="image/x-icon">
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <style>
+        body {
+            background-color: #000;
+        }
+        .container {
+            padding: 20px;
+            background-color: #000;
+           
+        }
+        html {
+            background-color: #000;
+        }
+
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            overflow: hidden;
+            margin: auto;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        .mySlides img {
+            width: 100%;
+        }
+
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 3px;
+            user-select: none;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev {
+            left: 0;
+            border-radius: 0 3px 3px 0;
+        }
+
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .slide-text {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Black background with 70% opacity */
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    width: 60%; /* Adjust width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Adds a shadow for better visibility */
+}
+
+
+
+
+        .imageChange {
+            height: 600px;
+            width: 100%;
+            text-align: center;
+            overflow: hidden;
+            object-fit: cover;
+
+
+        }
+
+
+        .tableLike {
+            height: 50%;
+            top: 10px;
+            position: relative;
+            background-color: #111;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 0px;
+            padding: 60px;
+            text-align: left;
+            line-height: 30px;
+            margin-top: -10px;
+        }
+
+        .container2 {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .container2 h1 {
+            padding-bottom: 30px;
+        }
+
+        /* Define the slide-in animation */
+        @keyframes slide-in {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(400);
+            }
+        }
+
+        /* Apply the animation to the element */
+        .container2 {
+            animation: slide-in 2.5s ease-out;
+        }
+
+        /* Text Section */
+        .text-section {
+            flex: 1;
+            padding: 20px;
+
+        }
+
+        /* Image Section */
+        .image-section {
+            flex: 1;
+            padding: 20px;
+
+        }
+
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 1.2rem;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+    
+
+        .section {
+            padding: 100px;
+            text-align: center;
+            height: 60vh;
+
+
+        }
+      
+        #what-we-offer {   
+    padding: 30px;
+    margin: auto;
+    height: 80vh;
+    background-image: url('bay.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+    color: #fff; /* Ensures text is readable */
+}
+
+#what-we-offer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Dark overlay */
+    z-index: 1; /* Ensures overlay is above the background image */
+}
+
+#what-we-offer > div {
+    position: relative;
+    z-index: 2; /* Ensures content is above the overlay */
+}
+
+.wholeSection {
+    margin-bottom: 0;
+    background-color: #000;
+    padding: 20px;
+    color: #fff; /* Ensures text is readable */
+}
+
+
+#title-service {
+    text-align: center;
+}
+.offers {
+    font: 1em sans-serif;
+}
+.design-container {
+    display: flex;
+    background-color: #0e0d0d;
+    padding: 75px;
+    border-radius: 10px;
+    box-shadow: #272222;
+    opacity: 90%;
+    justify-content: space-around;
+
+}
+.design-colum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    padding: 50px;
+}
+
+.design-colum p {
+    text-align: center;
+    margin: 0;
+
+}
+
+.icon {
+    font-size: 80px;
+    margin-bottom: 10px;
+    width: 10%;
+}
+
+
+.slide-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 90px ;
+    opacity: 0; /* Start hidden */
+    transform: translateY(100%); /* Start off-screen */
+    transition: transform 2s ease-out, opacity 2s ease-out;
+}
+
+.slide-up.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.quote-button {
+    background-color: #724e07;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quote-button:hover {
+    background-color: #5a3c05;
+}
+.section-divider {
+    border: none; /* Remove default border */
+    height: 1px; /* Set the height of the line */
+    background-color: white; /* Set the color of the line */
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    background-color: #000;
+    padding-bottom: 20px;
+    color: #5a360e;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #000;
+    position: relative;
+    z-index: 1;
+}
+
+ footer .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.nav-links {
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+footer .nav-links a, footer .social-icons a {
+    color: #5a360e;
+    text-decoration: none;
+}
+
+footer .contact-info {
+    list-style: none;
+    padding: 0;
+    position: absolute; /* Change to absolute positioning */
+    top: 10%; /* Adjust as needed to place it at the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10; /* Higher z-index means this element will be on top */
+}
+
+footer .contact-info p {
+    margin: 10px 0;
+}
+
+footer .back-to-top {
+    cursor: pointer;
+    position: absolute;
+    z-index: 20;
+    top: 110%;
+    left: 50%; 
+    transform: translateX(-50%); /* Center horizontally */
+    background-color: #000;
+    padding-bottom: 20px;
+}
+footer .logo {
+    width: auto; /* Adjust the size as needed */
+    height: 90%;
+    box-shadow: 10px 10px 20px #5e5c5c;
+   
+
+}
+footer .logo-container {
+    position: absolute;
+    top: 35%;
+    right: 12%;
+    width: 100px; /* Adjust the size as needed */
+    height: 65%; /* Adjust the size as needed */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    z-index: 10; /* Ensure it appears on top */
+}
+/*Mobile version*/
+@media only screen and  (max-width: 600px ) {
+
+  
+.slide-text {
+        font-size: 14px;
+        padding: 8px 16px;
+        width: 80%; /* Adjust width for mobile */
+    }
+
+    .imageChange {
+        height: 300px; /* Adjust height for mobile */
+    }
+
+    .tableLike {
+        padding: 30px; /* Adjust padding for mobile */
+    }
+
+    .container2 {
+        flex-direction: column; /* Stack elements vertically on mobile */
+        text-align: center;
+    }
+
+    .text-section, .image-section {
+        padding: 10px; /* Adjust padding for mobile */
+    }
+
+    .section {
+        padding: 50px; /* Adjust padding for mobile */
+        height: auto; /* Adjust height for mobile */
+    }
+
+    .BlackStripe {
+        padding: 20px; /* Adjust padding for mobile */
+    }
+    .image-section {
+            display: none;
+            }
+
+    .BlackStripe img {
+        height: 50px; /* Adjust image height for mobile */
+    }
+
+    .quote-button {
+        padding: 8px 16px; /* Adjust padding for mobile */
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .slide-text {
+        font-size: 16px;
+        padding: 10px 18px;
+        width: 70%;
+    }
+
+    .imageChange {
+        height: 400px;
+    }
+
+    .tableLike {
+        padding: 40px;
+    }
+
+    .container2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-section, .image-section {
+        padding: 15px;
+    }
+
+    .section {
+        padding: 70px;
+        height: auto;
+    }
+
+    .BlackStripe {
+        padding: 30px;
+    }
+
+    .BlackStripe img {
+        height: 60px;
+    }
+
+    .quote-button {
+        padding: 9px 18px;
+    }
+    .image-section {
+            display: none;
+            }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .slide-text {
+        font-size: 17px;
+        padding: 12px 20px;
+        width: 65%;
+    }
+
+    .imageChange {
+        height: 500px;
+    }
+
+    .tableLike {
+        padding: 50px;
+    }
+
+    .container2 {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .text-section, .image-section {
+        padding: 18px;
+    }
+
+    .section {
+        padding: 80px;
+        height: auto;
+    }
+
+    .BlackStripe {
+        padding: 35px;
+    }
+
+    .BlackStripe img {
+        height: 70px;
+    }
+    .image-section {
+            display: none;
+            }
+    .quote-button {
+        padding: 10px 20px;
+    }
+        }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .slide-text {
+        font-size: 18px;
+        padding: 14px 22px;
+        width: 60%;
+    }
+
+    .imageChange {
+        height: 550px;
+    }
+
+    .tableLike {
+        padding: 55px;
+    }
+
+    .container2 {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .text-section, .image-section {
+        padding: 20px;
+    }
+
+    .section {
+        padding: 90px;
+        height: auto;
+    }
+
+    .BlackStripe {
+        padding: 40px;
+    }
+
+    .BlackStripe img {
+        height: 80px;
+    }
+
+    .quote-button {
+        padding: 12px 22px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .slide-text {
+        font-size: 20px;
+        padding: 16px 24px;
+        width: 55%;
+    }
+
+    .imageChange {
+        height: 600px;
+    }
+
+    .tableLike {
+        padding: 60px;
+    }
+
+    .container2 {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .text-section, .image-section {
+        padding: 22px;
+    }
+
+    .section {
+        padding: 100px;
+        height: auto;
+    }
+
+    .BlackStripe {
+        padding: 45px;
+    }
+
+    .BlackStripe img {
+        height: 90px;
+    }
+
+    .quote-button {
+        padding: 14px 24px;
+    }
+}
+
+
+    </style>
+    </head>
+
+    <body>
+        <header> 
+            <div class="logo-container">
+            <form action="index.html">
+                <button>
+           <h2><img style="height: 120px; margin: auto;  box-shadow: 10px 10px 30px  rgba(237, 232, 232, 0.5);; " src="imgs/advantageD.png" alt="advantage digital logo"></h2> 
+        </button>
+    </div>
+        </form>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="wrapper">
+            <div class="container">
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 3</div>
+                        <img class="imageChange" src="https://media.istockphoto.com/id/1067358382/photo/computer-laptop-tablet-and-phone-with-responsive-web-design-website-at-office-mockup.webp?b=1&s=170667a&w=0&k=20&c=wIwZ1Xe3RBDXwiD3LTElEJgUBs2qqTwmoLO03NXc_vM=" alt="Picture of two laptops displaying a website">
+                        <div class="slide-text"> Premium responsive web design that adjusts to different screen sizes</div>
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 3</div>
+                        <img class="imageChange" src="https://images.unsplash.com/photo-1579403124614-197f69d8187b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww" alt="Picture of code being displayed on a computer">
+                        <div class="slide-text">No recurring fees due to our code-based approach</div>
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 3</div>
+                        <img class="imageChange" src="https://plus.unsplash.com/premium_photo-1661386253258-64ab9521ce89?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2ViJTIwaG9zdGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="Picture of a data center">
+                        <div class="slide-text">Hosting services available to suit a variety of budgets </div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+            </div>
+        </div>
+        
+            </div>
+        </div>
+        <div class="tableLike">
+
+            <div class="container2">
+                <div class="text-section">
+                    <h1 style="line-height: 50px;">Does your buisness need a website </h1>
+                    <h2>We are your solution </h2>
+                    <p>
+                        We design complete user friendly and appealing websites
+                        that will bring your buisness to the next level.
+                        With packages to suit every budget we can cater for any project.
+
+                        Our aim is to give future entrepenurs the opportunity to evelate their sales and to increase
+                        their
+                        online presence <br><br>
+                        If you are a tradesmen or an entrepenur trying to attract more clients we have web development services tailored exclusively for you. Unlike generic
+                        platforms that
+                        charge monthly subscription fees, we offer a smarter solution. Here’s why you should choose our
+                        custom-built websites <br> <br>
+
+                        <h3> Cost-Effective </h3> <br><br> Say goodbye to recurring fees. Our upfront cost
+                        ensures
+                        long-term
+                        savings. Invest wisely in your business without draining your budget month after month. <br><br>
+
+                        <h3>Branding Control </h3> <br><br> Your brand matters. With custom development, you
+                        have
+                        complete
+                        control over your logo, colors, and identity. Consistent branding builds trust with your
+                        customers. <br><br>
+
+                        <h3>Scalability</h3> <br> As your business grows, so can your website. We ensure
+                        scalability,
+                        adapting to your changing needs seamlessly.
+                        </p>
+
+                </div>
+                <div class="image-section">
+                    <img style=" width: 105%;margin-left: 30px;"
+                        src="imgs/network-user-interface-in-web-design.png"
+                        alt="Web design ilistration green">
+                </div>
+            </div>
+        </div>
+
+        <section id="what-we-offer">
+            <div class="offers">
+                <h2 id="title-service">Our Services</h2>
+            </div>
+                <div class="design-container">
+                    <div class="design-column">
+                        <div class="icon"><img src="https://img.icons8.com/?size=100&id=6eg6v2SboVc8&format=png&color=FFFFFF" alt=""></div>
+                        <p style="letter-spacing: .1rem; margin-right: -15px;">Web design</p>
+                    </div>
+                    <div class="design-column">
+                        <div class="icon"><img  src="https://img.icons8.com/?size=100&id=7721&format=png&color=FFFFFF" alt=""></div>
+                        <p style="letter-spacing: .1rem; margin-left: -50px;">Searc engine optimization</p>
+                    </div>
+                    <div class="design-column">
+                        <div class="icon"><img src="https://img.icons8.com/?size=100&id=3507&format=png&color=FFFFFF" alt=""></div>
+                        <p style="letter-spacing: .1rem;"> Web Hosting</p>
+                    </div>
+                    <div class="design-column">
+                        <div class="icon"><img src="https://img.icons8.com/?size=100&id=T2hlOs3PLcaY&format=png&color=FFFFFF" alt=""></div>
+                        <p style="letter-spacing: .1rem; margin-left: -20px;">Web development</p>
+                    </div>
+            </div>
+            </div>
+            <div id="what-we-offer-image">
+                <img src="" alt="">
+            </div>
+        </section>
+
+        <div class="wholeSection">
+            <div class="section">
+                <div class="slide-up">
+                <h1>Get a Quote</h1>
+                <p>Kick start your buisness by contacting us:</p>
+                 <form action="contact.html">
+                <button class="quote-button" >Contact us</button>
+            </form>
+        </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+<hr class="section-divider">
+<footer>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="social-icons">
+                <li><a href="#facebook">Facebook</a></li>
+                <li><a href="#twitter">Twitter</a></li>
+                <li><a href="#instagram">Instagram</a></li>
+            </ul>
+        </div>
+            
+            <div class="contact-info">
+                <h3> Contact Us</h3>
+                <p>Phone: 0896030123</p>
+                <p>Email: @AdvantageDigitalGalway.com</p>
+            </div>
+            <div class="logo-container">
+            <img src="imgs/advantageD.png" alt="Logo" class="logo">
+            </div>
+            <div class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+                Back to Top
+        </div>
+</div>
+</footer>
+        <script>
+           let slideIndex = 1;
+let slideInterval;
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex - 1].style.display = "block";
+    resetSlideInterval();
+}
+
+function plusSlides(n) {
+    slideIndex += n;
+    showSlides(slideIndex);
+}
+
+function resetSlideInterval() {
+    clearInterval(slideInterval);
+    slideInterval = setInterval(() => plusSlides(1), 27000);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    showSlides(slideIndex);
+    slideInterval = setInterval(() => plusSlides(1), 27000);
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
+    });
+
+    const target = document.querySelector('.slide-up');
+    observer.observe(target);
+});
+
+        </script>
+</html>
